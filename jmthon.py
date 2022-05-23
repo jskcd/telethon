@@ -25,7 +25,7 @@ async def join_channel():
     except BaseException:
         pass
     try:
-        await jmthon(JoinChannelRequest("@TeamJmthon"))
+        await jmthon(JoinChannelRequest("@RR7PP"))
     except BaseException:
         pass
 

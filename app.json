@@ -1,0 +1,25 @@
+{
+  "name": "jmthon bot ",
+  "description": "simple bot based in telethon ",
+  "env": {
+    "API_ID": {
+      "description": "الايبب ايدي",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "الايبي هاش",
+      "value": ""
+    },
+    "STRING_SESSION": {
+      "description": "كود تيرمكس",
+      "value": ""
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{"url": "heroku/python"}]
+}

@@ -57,7 +57,7 @@ namerzfont = "𝟣𝟤𝟥𝟦𝟧𝟨𝟩𝟪𝟫𝟢"
 async def roz(bakar):
     if not bakar.is_reply:
         return await bakar.edit(
-            "**❃ يجب عليك الرد على صورة ذاتيه التدمير او صورة مؤقته**"
+            "**❃ يجب عليك الرد على صورة ذاتيه التدمير او صورة ؤقته**"
         )
     rr9r7 = await bakar.get_reply_message()
     pic = await rr9r7.download_media()
